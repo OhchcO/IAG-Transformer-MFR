@@ -3,7 +3,7 @@ import torch
 import dgl
 import sys
 sys.path.append('..')
-from models.modules.utils.macro import *
+from iag_transformer.utils.macro import *
 
 def pad_mask_unsqueeze(x, padlen):  #x[num_nodes]
     xlen = x.size(0)
