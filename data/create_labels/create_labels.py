@@ -15,8 +15,8 @@ from OCC.Core.TopoDS import topods
 from OCC.Extend.TopologyUtils import TopologyExplorer
 
 # 你的工具库 (保留原有的加载函数)
-from utils.data_utils import load_body_from_step
-from dataset.topologyCheker import TopologyChecker
+from data_utils import load_body_from_step
+from topologyCheker import TopologyChecker
 
 load_backend("qt-pyqt5")
 import OCC.Display.qtDisplay as qtDisplay
